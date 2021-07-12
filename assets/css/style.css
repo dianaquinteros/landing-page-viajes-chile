@@ -27,6 +27,10 @@ hr  {
     transition: background-color 200ms linear;
 }
 
+footer .icons {
+    cursor: pointer;
+}
+
 @media (max-width: 576px) {
     footer {
         flex-direction: column;

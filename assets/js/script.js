@@ -18,5 +18,8 @@ $(function () {
         var $nav = $(".navbar.fixed-top");
         $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
     });
+
+    // Activa Bootstrap Tooltip
+    $('[data-toggle="tooltip"]').tooltip();
     
 });
