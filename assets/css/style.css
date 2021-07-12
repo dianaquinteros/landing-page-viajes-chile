@@ -1,0 +1,47 @@
+body {
+    background-color: #000;
+    font-family: 'Raleway', sans-serif;
+}
+
+hr  {
+    border: 1px solid #17a2b8;
+    width: 90%;
+}
+
+.logo-viajes {
+    width: 50px;
+}
+
+#quienes-somos p {
+    font-size: 0.88rem;
+    line-height: 1.4rem;
+}
+
+.card img {
+    height: 150px;
+    object-fit: cover;
+}
+
+.navbar.fixed-top.scrolled {
+    background-color: #060606d4 !important;
+    transition: background-color 200ms linear;
+}
+
+@media (max-width: 576px) {
+    footer {
+        flex-direction: column;
+        padding: 2rem;
+    }
+
+    footer h3 {
+        margin-right: 0;
+    }
+
+    footer .icons {
+        margin-top: 1rem;
+    }
+
+    footer .icons i {
+        font-size: 2rem;
+    }
+}
